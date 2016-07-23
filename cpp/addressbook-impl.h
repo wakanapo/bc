@@ -14,7 +14,7 @@ class MyAddressBook : public AddressBook {
 
 	virtual ~MyAddressBook() {}
  private:
-	std::vector<Contact> contacts_;
+	std::vector<Contact*> m_contacts;
 };
 
 #endif

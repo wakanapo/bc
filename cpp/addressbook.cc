@@ -1,4 +1,5 @@
 #include "addressbook.h"
+#include <vector>
 
 using std::string;
 
@@ -25,3 +26,4 @@ bool Contact::operator<(const Contact &a) const {
 		}
 		return name_ < a.name_;
 }
+
